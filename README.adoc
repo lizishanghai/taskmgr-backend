@@ -1,6 +1,6 @@
-![alt text](https://gitlab.com/lizhang.ca/gs-rest-service/blob/master/demo1.jpg)
+![image](https://gitlab.com/lizhang.ca/gs-rest-service/blob/master/demo1.jpg)
 
-![alt text](https://gitlab.com/lizhang.ca/gs-rest-service/blob/master/demo1.jpg)
+![image](https://gitlab.com/lizhang.ca/gs-rest-service/blob/master/demo2.jpg)
 
 
 
