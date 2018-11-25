@@ -1,16 +1,15 @@
 Building a RESTful Web Service
-	•	from scratch:
-		⁃	Build with Gradle 
-		⁃	Create the directory structure
-		⁃	Create a Gradle build file
-	•	skip the basics
-		⁃	git clone https://github.com/spring-guides/gs-rest-service.git
-		⁃	Create a resource representation class, a resource controller
-	⁃	Build an executable JAR
-		⁃	using Maven :  run the application using ./mvnw spring-boot:run
-		⁃	Or you can build the JAR file with ./mvnw clean package. Then run the JAR file: java -jar target/gs-rest-service-0.1.0.jar
-	⁃	Test the service  http://localhost:8080/greeting
-
+•	from scratch:
+	⁃	Build with Gradle 
+	⁃	Create the directory structure
+	⁃	Create a Gradle build file
+•	skip the basics
+	⁃	git clone https://github.com/spring-guides/gs-rest-service.git
+	⁃	Create a resource representation class, a resource controller
+⁃	Build an executable JAR
+	⁃	using Maven :  run the application using ./mvnw spring-boot:run
+	⁃	Or you can build the JAR file with ./mvnw clean package. Then run the JAR file: java -jar target/gs-rest-service-0.1.0.jar
+⁃	Test the service  http://localhost:8080/greeting
 	//进程要开着 
 
 
