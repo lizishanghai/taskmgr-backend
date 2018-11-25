@@ -1,6 +1,6 @@
-![alt text](https://gitlab.com/lizhang.ca/gs-rest-service/blob/master/demo1.jpg)
+![alt text](https://firebasestorage.googleapis.com/v0/b/test001-lizhang.appspot.com/o/demos%2Fdemo1.jpg?alt=media&token=adc9c2aa-0028-4ae2-84c9-c0c2205627e2)
 
-![alt text](https://gitlab.com/lizhang.ca/gs-rest-service/blob/master/demo2.jpg)
+![alt text](https://firebasestorage.googleapis.com/v0/b/test001-lizhang.appspot.com/o/demos%2Fdemo2.jpg?alt=media&token=a43982d0-a6a3-4c81-a927-f87569527aad)
 
 
 
