@@ -1,7 +1,7 @@
 
-## Accessing Data with MongoDB
+## Backend of task management
 
-## Setup
+## Accessing MongoDB Data with REST
     To start from scratch, move on to Build with Gradle.
 
     To skip the basics, do the following:  
@@ -36,7 +36,7 @@
 ![alt text](https://firebasestorage.googleapis.com/v0/b/test001-lizhang.appspot.com/o/demos%2Fgtm-byli%2F1543350586008.jpg?alt=media&token=f46e12d0-b2ec-42e7-9e81-41a59f1cbf07)
 
 ## 
-## MongoDB的集成
+## 用Docker集成MongoDB
 
 
 ## 安装 MongoDB。 建议使用 docker 进行安装: 
