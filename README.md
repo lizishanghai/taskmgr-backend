@@ -1,22 +1,75 @@
-Building a RESTful Web Service
-•	from scratch:
-	⁃	Build with Gradle 
-	⁃	Create the directory structure
-	⁃	Create a Gradle build file
-•	skip the basics
-	⁃	git clone https://github.com/spring-guides/gs-rest-service.git
-	⁃	Create a resource representation class, a resource controller
-⁃	Build an executable JAR
-	⁃	using Maven :  run the application using ./mvnw spring-boot:run
-	⁃	Or you can build the JAR file with ./mvnw clean package. Then run the JAR file: java -jar target/gs-rest-service-0.1.0.jar
-⁃	Test the service  http://localhost:8080/greeting
+## Building a RESTful Web Service
+from scratch:
+⁃	Build with Gradle 
+⁃	Create the directory structure
+⁃	Create a Gradle build file
+
+skip the basics
+⁃	git clone https://github.com/spring-guides/gs-rest-service.git
+⁃	Create a resource representation class, a resource controller
+
+Build an executable JAR
+⁃	using Maven :  run the application using ./mvnw spring-boot:run
+⁃	Or you can build the JAR file with ./mvnw clean package. Then run the JAR file: java -jar target/gs-rest-service-0.1.0.jar
+
+Test the service  http://localhost:8080/greeting
 	//进程要开着 
 
 
-![alt text](https://firebasestorage.googleapis.com/v0/b/test001-lizhang.appspot.com/o/demos%2Fdemo1.jpg?alt=media&token=adc9c2aa-0028-4ae2-84c9-c0c2205627e2)
+## MongoDB 支撑的 API
 
-![alt text](https://firebasestorage.googleapis.com/v0/b/test001-lizhang.appspot.com/o/demos%2Fdemo2.jpg?alt=media&token=a43982d0-a6a3-4c81-a927-f87569527aad)
+MongoDB 的集成
 
+安装 MongoDB
+
+建议使用 docker 进行安装: docker pull mongo 
+
+命令可以查看已经拉取的镜像列表， docker images 
+
+启动容器了，映射 �MongoDB 默认端口 27017 到本地的 27017: 
+  $ docker run -p 27017:27017 --name mymongo -d mongo:latest 
+
+如果要测试一下的话，可以通过以下命令登录到容器: 
+  $ docker exec -it mymongo bash
+
+配置 Spring Boot 使用 MongoDB
+
+
+========================
+
+## Accessing Data with MongoDB
+
+To start from scratch, move on to Build with Gradle.
+
+To skip the basics, do the following:  
+
+  $ git clone https://github.com/spring-guides/gs-accessing-data-mongodb.git
+  Install and launch MongoDB
+
+Install and launch MongoDB
+  $ brew install mongodb
+  After you install MongoDB, launch it in a console window. This command also starts up a server process.
+  $ mongod
+
+Define a simple entity
+  src/main/java/hello/Customer.java
+
+Create simple queries
+  src/main/java/hello/CustomerRepository.java
+
+Create an Application class
+  src/main/java/hello/Application.java
+
+Build an executable JAR
+  $ ./gradlew bootRun
+  $ ./mvnw spring-boot:run // ok
+
+
+
+##
+![alt text](https://firebasestorage.googleapis.com/v0/b/test001-lizhang.appspot.com/o/demos%2F1543294178151.jpg?alt=media&token=dbbd8e5e-c886-4e02-8e9f-619bee03d6f1)
+
+![alt text](https://firebasestorage.googleapis.com/v0/b/test001-lizhang.appspot.com/o/demos%2F1543295211033.jpg?alt=media&token=b1bf9c88-596f-4a95-80c5-a0f44fa062d7)
 
 
 :spring_version: current
@@ -94,7 +147,7 @@ The service will handle `GET` requests for `/greeting`, optionally with a `name`
 The `id` field is a unique identifier for the greeting, and `content` is the textual representation of the greeting.
 
 To model the greeting representation, you create a resource representation class. Provide a plain old java object with fields, constructors, and accessors for the `id` and `content` data:
-
+List
 `src/main/java/hello/Greeting.java`
 [source,java]
 ----
