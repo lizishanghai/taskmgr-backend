@@ -6,15 +6,15 @@ public class Task {
     @Id
     private String id;
     private String desc;
-    private boolean completed;
+//    private boolean completed;
 
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
+//    public String getId() {
+//        return id;
+//    }
+//
+//    public void setId(String id) {
+//        this.id = id;
+//    }
 
     public String getDesc() {
         return desc;
@@ -24,13 +24,13 @@ public class Task {
         this.desc = desc;
     }
 
-    public boolean isCompleted() {
-        return completed;
-    }
-
-    public void setCompleted(boolean completed) {
-        this.completed = completed;
-    }
+//    public boolean isCompleted() {
+//        return completed;
+//    }
+//
+//    public void setCompleted(boolean completed) {
+//        this.completed = completed;
+//    }
 }
 
 //package hello;
